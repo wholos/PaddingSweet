@@ -3,7 +3,7 @@
 
 How to install!?
 ``` bash
-sudo pacman -S git clang ncurses
+sudo pacman -S git clang ncurses make
 git clone https://github.com/wholos/PaddingSweet
 cd PaddingSweet/
 make all
