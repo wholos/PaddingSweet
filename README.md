@@ -6,7 +6,7 @@ How to install!?
 sudo pacman -S git clang ncurses
 git clone https://github.com/wholos/PaddingSweet
 cd PaddingSweet/
-clang++ main.cpp -o main.out -lncurses
+make all
 sudo cp main.out /usr/local/bin/paddingsweet
 ```
 Ready!
