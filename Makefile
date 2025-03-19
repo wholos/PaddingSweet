@@ -3,12 +3,12 @@ CPPFLAGS=-lncurses -o main.out
 
 all: main.c
 	@echo "Build..."
-	@$(CPP) $(CPPFLAGS) main.c
+	@$(CPP) $(CPPFLAGS) main.cpp
 
 install:
 	@echo "Build..."
 	@echo "Install..."
-	@$(CPP) $(CPPFLAGS) main.c
+	@$(CPP) $(CPPFLAGS) main.cpp
 	@sudo cp main.out /usr/local/bin/paddingsweet
 
 uninstall:
