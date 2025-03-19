@@ -1,7 +1,7 @@
 CPP=clang++
 CPPFLAGS=-lncurses -o main.out
 
-all: main.c
+all: main.cpp
 	@echo "Build..."
 	@$(CPP) $(CPPFLAGS) main.cpp
 
